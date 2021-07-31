@@ -5,33 +5,161 @@
 ul,li{
     display: inline;
 }
+a{
+    text-decoration: none;
+}
+.padding{
+    padding-bottom: 3em;
+}
+.titulos{
+    padding-bottom: 2em;
+}
 header{
     width: 100%;
     display: flex;
-    padding: 30px 0px;
+    padding: 35px 0px;
     justify-content: flex-end;
     background-color: white;
     position: fixed;
     box-shadow: 0 0 25px rgb(84 71 71 / 34%);
 }
-
 nav{
     float: left;
 }
 nav ul li{
-    margin: 0 15px;
+    margin: 0 20px;
+    list-style: none;
 }
+
 .button{
     background-color: blueviolet;
     color: white;
     padding: 12px 30px;
     border-radius: 100px;
-    border: none;
+    margin-right: 100px;
 }
 
 .contenedor{
+    min-height: 100vh;
+    padding: 130px 100px;
+    border: orange solid 2px;
+}
+.contenedor-hola{
+    line-height: 2;
+    display: flex;
+    justify-content: space-around;
+}
+.hola{
+    padding: 150px 0;
+    font-size: 1.3em;
+}
+.imagen-hola{
+    height: 500px;
+}
+
+.conocimientos{
+    text-align: center;
+}
+/*para arreglar*/
+
+/*para arreglar*/
+.cont-background{
+    background-color: rgba(247, 245, 245, 0.918);
+}
+.conocimientos-items{
     display: flex;
     justify-content: center;
-    padding: 110px 40px 130px;
+    align-content: center;
+    flex-wrap: wrap;
     text-align: center;
+}
+.conocimientos-items img{
+    height: 100px;
+    padding-bottom: 15px;
+}
+.conocimientos-items div{
+    border: solid rgba(150, 149, 149, 0.466) 1px;
+    border-radius: 10px;
+    padding: 60px 90px;
+    margin: 10px;
+    background-color: white;
+}
+.items div:hover{
+    border: solid blueviolet 1px;
+    color: blueviolet;
+}
+.contenedor-cita{
+    min-height: 70vh;
+    padding: 60px 100px;
+    background-color: blueviolet;
+}
+.cita{
+    text-align: center;
+    color: #fff;
+}
+.cita img{
+    height: 150px;
+    padding-bottom: 3em;
+}
+.cita p{
+    padding-left: 8em;
+    padding-right: 8em;
+}
+
+.proyectos{
+    text-align: center;
+    margin: 0 400px;
+}
+.proyectos-items{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    padding: 0 1.5em;
+}
+.proyectos-items img{
+    height: 300px;
+    padding-bottom: 10px;
+}
+.proyectos-items a{
+    border: solid rgba(150, 149, 149, 0.466) 1px;
+    border-radius: 10px;
+    padding: 15px 40px;
+    margin: 10px;
+}
+.proyectos-items a:hover{
+    border: solid blueviolet 1px;
+    color: blueviolet;
+}
+
+.cont-contacto{
+    border: solid rgba(150, 149, 149, 0.466) 1px;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 4em 3em;
+    margin: 30px;
+    text-decoration: none;
+    display: flex;
+}
+.contactame{
+    border: solid black 2px;
+    width: 50%;
+    padding-right: 3em;
+}
+.contactame p{
+    padding-bottom: 2em;
+}
+.contac-lista ul li{
+    display: flex;
+    padding: 1em;
+    align-items: center;
+}
+.contactame img{
+    height: 25px;
+    margin-right: 1em;
+}
+
+.escribeme{
+    border: solid black 2px;
+    width: 50%;
+    padding-left: 1em;
 }
