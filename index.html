@@ -12,13 +12,13 @@
         <nav>
             <ul>
                 <li>
-                    <a href="#">HOLA</a>
+                    <a class="nav" href="#">HOLA</a>
                 </li>
                 <li>
-                    <a href="#">CONOCIMIENTOS</a>
+                    <a class="nav" href="#">CONOCIMIENTOS</a>
                 </li>
                 <li>
-                    <a href="#">PROYECTOS</a>
+                    <a class="nav" href="#">PROYECTOS</a>
                 </li>
                 <li>
                     <a class="button" href="#">CONTACTO</a>
@@ -78,7 +78,7 @@
             <div class="contactame">
                 <h2 class="titulos">Contactame</h2>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam amet, sed id commodi consequuntur quasi ut et numquam quos voluptas hic ex voluptate voluptatibus asperiores fugiat ipsum! Pariatur, minus in?</p>
-                <div class="contac-lista">
+                <div class="contac-lista iconos">
                     <ul>
                         <li><img src="assets/img/gato.jpg" alt=""><link rel="stylesheet" href="">@AdaLovelace</li>
                         <li><img src="assets/img/gato.jpg" alt=""><link rel="stylesheet" href="">adaLovelace</li>
@@ -90,41 +90,53 @@
             <div class="escribeme">
                 <h2 class="titulos">Escribeme</h2>
                 <form action="">
-                    <label>Nombre*</label><br>
-                    <input type="text" name="username" maxlength="30" placeholder="Ada" required="required"><br>
-                    <label>Apellido*</label><br>
-                    <input type="text" name="surname" maxlength="30" placeholder="Lovelace" required="required"><br>
+                    <div class="escribeme-form">
+                        <div>
+                            <label>Nombre*</label><br>
+                            <input type="text" name="username" maxlength="30" placeholder="Ada" required="required"><br>
+                        </div>
+                        <div>
+                            <label>Apellido*</label><br>
+                            <input type="text" name="surname" maxlength="30" placeholder="Lovelace" required="required"><br>
+                        </div>
+                    </div>
                     <label>Email*</label><br>
                     <input type="email" name="email" maxlength="30" placeholder="adalovelace@gmail.com" required="required"><br>
-                    <label>Mensaje*</label>
-                    <textarea name="Message" cols="30" rows="10"></textarea><br>
-                    <input id="submit" type="submit" value="Enviar">
+                    <div class="escribeme-msj">
+                        <label>Mensaje*</label>
+                        <textarea name="Message" cols="30" rows="10" placeholder="Escriba un mensaje aqui"></textarea><br>
+                    </div>
+                    <input id="enviar" id="submit" type="submit" value="Enviar" class="button" >
                 </form>
             </div>
         </div>
     </section>
     <footer>
-        <div>
-            <ul>
-                <li>
-                    <a href="inicio">HOLA</a>
-                </li>
-                <li>
-                    <a href="conocimientos">CONOCIMIENTOS</a>
-                </li>
-                <li>
-                    <a href="proyectos">PROYECTOS</a>
-                </li>
-                <li>
-                    <a href="contacto">CONTACTO</a>
-                </li>
-            </ul>
-            <ul>
-                <li><img src="" alt=""><link rel="stylesheet" href=""></li>
-                <li><img src="" alt=""><link rel="stylesheet" href=""></li>
-                <li><img src="" alt=""><link rel="stylesheet" href=""></li>
-                <li><img src="" alt=""><link rel="stylesheet" href=""></li>
-            </ul>
+        <div class="footer">
+            <nav id="color">
+                <ul>
+                    <li>
+                        <a href="inicio">HOLA</a>
+                    </li>
+                    <li>
+                        <a href="conocimientos">CONOCIMIENTOS</a>
+                    </li>
+                    <li>
+                        <a href="proyectos">PROYECTOS</a>
+                    </li>
+                    <li>
+                        <a href="contacto">CONTACTO</a>
+                    </li>
+                </ul>
+            </nav>
+            <div class="iconos margen">
+                <ul>
+                    <li><img src="assets/img/gato.jpg" alt=""><link rel="stylesheet" href=""></li>
+                    <li><img src="assets/img/gato.jpg" alt=""><link rel="stylesheet" href=""></li>
+                    <li><img src="assets/img/gato.jpg" alt=""><link rel="stylesheet" href=""></li>
+                    <li><img src="assets/img/gato.jpg" alt=""><link rel="stylesheet" href=""></li>
+                </ul>
+            </div>
             <p>Hecho con <img src="" alt=""> por Ada</p>
         </div>
     </footer>

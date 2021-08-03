@@ -27,16 +27,28 @@ nav{
     float: left;
 }
 nav ul li{
-    margin: 0 20px;
+    margin: 0 1em;
     list-style: none;
 }
-
+.nav{
+    padding: 12px 10px;
+    border-radius: 100px;
+}
+.nav:hover{
+    box-shadow: 0 0 5px blueviolet;
+    color: blueviolet;
+}
 .button{
     background-color: blueviolet;
     color: white;
     padding: 12px 30px;
     border-radius: 100px;
     margin-right: 100px;
+    border: blueviolet;
+    width: auto;
+}
+.button:hover{
+    background-color: rgb(171, 103, 235);
 }
 
 .contenedor{
@@ -60,9 +72,6 @@ nav ul li{
 .conocimientos{
     text-align: center;
 }
-/*para arreglar*/
-
-/*para arreglar*/
 .cont-background{
     background-color: rgba(247, 245, 245, 0.918);
 }
@@ -141,7 +150,6 @@ nav ul li{
     display: flex;
 }
 .contactame{
-    border: solid black 2px;
     width: 50%;
     padding-right: 3em;
 }
@@ -153,13 +161,71 @@ nav ul li{
     padding: 1em;
     align-items: center;
 }
-.contactame img{
+.iconos img{
     height: 25px;
-    margin-right: 1em;
+    margin-right: 1.5em;
 }
 
 .escribeme{
-    border: solid black 2px;
     width: 50%;
     padding-left: 1em;
+}
+.escribeme-form{
+    display: flex;
+}
+.escribeme-form div{
+    padding-right: 1.5em;
+}
+.escribeme-msj{
+    display: flex;
+    flex-direction: column;
+}
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    min-height: 50vh;
+    background-color: blueviolet;
+    color: #fff;
+}
+
+#color a{
+    color: #fff;
+}
+.margen{
+    margin: 2em;
+}
+label{
+    display: block;
+}
+input, textarea{
+    margin-bottom: 10px;
+    padding: 0.8em;
+    border-radius: 18px;
+    border: none;
+    width: 87%;
+    background: aliceblue;
+}
+textarea{
+    margin-top: 10px;
+}
+input:hover, textarea:hover{
+    box-shadow: 0 0 5px blueviolet;
+}
+input:valid{
+    border: rgb(136, 238, 34) solid 1px;
+    box-shadow: 0 0 5px rgb(136, 238, 34);
+}
+/*
+input:invalid{
+    border: red solid 1px;
+}*/
+#enviar:valid{
+    border: none;
+    box-shadow: none;
+}
+#enviar:hover{
+    border: none;
+    box-shadow: none;
 }
