@@ -5,85 +5,97 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ada Lovelace</title>
+    <!--Link Font Monserrant-->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,800,900&amp;display=swap" rel="stylesheet" preload="">
+    <!--CSS-->
     <link rel="stylesheet" href="assets/css/style.css">
+    <!-- link Font Awesome-->
+    <link href="assets/css/all.css" rel="stylesheet">
 </head>
 <header>
-    <section>
-        <nav>
-            <ul>
-                <li>
-                    <a class="nav" href="#">HOLA</a>
-                </li>
-                <li>
-                    <a class="nav" href="#">CONOCIMIENTOS</a>
-                </li>
-                <li>
-                    <a class="nav" href="#">PROYECTOS</a>
-                </li>
-                <li>
-                    <a class="button" href="#">CONTACTO</a>
-                </li>
-            </ul>
-        </nav>
-    </section>
+    <nav>
+        <ul>
+            <li>
+                <a class="nav" href="#hola">HOLA</a>
+            </li>
+            <li>
+                <a class="nav" href="#conocimientos">CONOCIMIENTOS</a>
+            </li>
+            <li>
+                <a class="nav" href="#proyectos">PROYECTOS</a>
+            </li>
+            <li>
+                <a class="button" href="#contacto">CONTACTO</a>
+            </li>
+        </ul>
+    </nav>
 </header>
 <body >
-    <section class="contenedor contenedor-hola">
+    <!--Seccion de inicio-->
+    <section id="hola" class="contenedor contenedor-hola">
         <div class="hola">
-            <h3>¡Hola! Soy</h3>
-            <h1>Ada Lovelace</h1>
-            <p>Desarrolladora, guitarrista y fan de las matemáticas</p>
+            <h3 class="saludo">¡Hola! Soy</h3>
+            <h1 class="nombre">Ada Lovelace</h1>
+            <p class="padding-button">Desarrolladora, guitarrista y fan de las matemáticas</p>
             <button class="button">Lo que Hago</button>
         </div>
-        <img class="imagen-hola" src="assets/img/software-engineer.svg" alt="software-engineer">
+        <img class="imagen-hola" src="/Portfolio_ADA/assets/img/Gato.jpg" alt="gato golpeando un jarron"> 
     </section>
-    <section class="contenedor cont-background">
+    <!--Seccion de skills-->
+    <section id="conocimientos" class="contenedor cont-background">
         <div class="conocimientos">
             <h2 class="titulos">Mis conocimientos</h2>
             <p class="padding">Lorem ipsum, dolor sit amet consectetur <br> adipisicing elit.mjogchitate. <br> Ea blanditiis assumenda veniam quod, saepe error ratione adipisci?</p>
         </div>
         <div class="conocimientos-items items">
-            <div><img src="assets/img/gato.jpg" alt=""><h3>HTML 5</h3></div>
-            <div><img src="assets/img/gato.jpg" alt=""><h3>CSS 3</h3></div>
-            <div><img src="assets/img/gato.jpg" alt=""><h3>Sass</h3></div>
-            <div><img src="assets/img/gato.jpg" alt=""><h3>JavaScript</h3></div>
-            <div><img src="assets/img/gato.jpg" alt=""><h3>React</h3></div>
-            <div><img src="assets/img/gato.jpg" alt=""><h3>GIT</h3></div>
+            <div><img src="/Portfolio_ADA/assets/icons/html5.svg" alt="html5"><h3>HTML 5</h3></div>
+            <div><img src="/Portfolio_ADA/assets/icons/css-3.svg" alt="css-3"><h3>CSS 3</h3></div>
+            <div><img src="/Portfolio_ADA/assets/icons/sass.svg" alt="sass"><h3>Sass</h3></div>
+            <div><img src="/Portfolio_ADA/assets/icons/java-script-logo.svg" alt=""><h3>JavaScript</h3></div>
+            <div><img src="/Portfolio_ADA/assets/icons/atom-symbol.svg" alt="React"><h3>React</h3></div>
+            <div><img src="/Portfolio_ADA/assets/icons/git-logo.svg" alt="GIT"><h3>GIT</h3></div>
         </div>
     </section>
+    <!--Seccion cita-->
     <section class="contenedor-cita">
         <div class="cita">
-            <img src="assets/img/gato.jpg" alt="" class="padding">
-            <p class="padding">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Incidunt aut est nisi reprehenderit, tempora aliquid magni! Cumque, voluptate dolores consequatur sit, sed dicta veritatis nisi facere dolorum placeat totam assumenda.</p>
+            <img src="/Portfolio_ADA/assets/icons/comillas.svg" alt="comillas" class="padding">
+            <blockquote class="padding">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Incidunt aut est nisi reprehenderit, tempora aliquid magni! Cumque, voluptate dolores consequatur sit, sed dicta veritatis nisi facere dolorum placeat totam assumenda.</blockquote> 
             <h4>Someone</h4>
         </div>
     </section>
-    <section class="contenedor">
+    <!--Seccion de proyectos-->
+    <section id="proyectos" class="contenedor">
         <div class="proyectos">
             <h2 class="titulos">Mis proyectos</h2>
-            <p class="padding">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut laborum dignissimos aliquam, provident tempore repellendus, magnam distinctio est placeat aspernatur id obcaecati.</p>
+            <div style="padding: 0 3em;"><p class="padding">Lorem ipsum dolor sit amet consectetur adipisicing elit. <br> Ut laborum dignissimos aliquam, provident tempore repellendus, <br> magnam distinctio est placeat aspernatur id obcaecati.</p></div>
         </div>
         <div class="proyectos-items">
-            <a href=""> <img src="assets/img/gato.jpg" alt=""> <p>Portfolio</p></a>
-            <a href=""> <img src="assets/img/gato.jpg" alt=""> <p>Generador de memes</p></a>
-            <a href=""> <img src="assets/img/gato.jpg" alt=""> <p>Match 3</p></a>
-            <a href=""> <img src="assets/img/gato.jpg" alt=""> <p>Controlador de gastos</p></a>
-            <a href=""> <img src="assets/img/gato.jpg" alt=""> <p>Administrador de reuniones</p></a>
-            <a href=""> <img src="assets/img/gato.jpg" alt=""> <p>Todo app</p></a>
-            <a href=""> <img src="assets/img/gato.jpg" alt=""> <p>Buscador de películas</p></a>
+            <a href=""> <img src="/Portfolio_ADA/assets/img/portfolio.jpg" alt=""> <p>Portfolio</p></a>
+            <a href=""> <img src="/Portfolio_ADA/assets/img/generador.jpg" alt=""> <p>Generador de memes</p></a>
+            <a href=""> <img src="/Portfolio_ADA/assets/img/Idea_concept.jpg" alt=""> <p>Match 3</p></a>
+            <a href=""> <img src="/Portfolio_ADA/assets/img/Wavy_Tech-21_Single-11.jpg" alt=""> <p>Controlador de gastos</p></a>
+            <a href=""> <img src="/Portfolio_ADA/assets/img/Wavy_Bus-35_Single-02.jpg" alt=""> <p>Administrador de reuniones</p></a>
+            <a href=""> <img src="/Portfolio_ADA/assets/img/App.jpg" alt=""> <p>Todo app</p></a>
+            <a href=""> <img src="/Portfolio_ADA/assets/img/remote-control.jpg" alt=""> <p>Buscador de películas</p></a>
         </div>
     </section>
-    <section class="contenedor cont-background">
-        <div class="cont-contacto">
+    <!--Seccion de contacto-->
+    <section class="contenedor contac-background">
+        <div id="contacto" class="cont-contacto">
             <div class="contactame">
                 <h2 class="titulos">Contactame</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam amet, sed id commodi consequuntur quasi ut et numquam quos voluptas hic ex voluptate voluptatibus asperiores fugiat ipsum! Pariatur, minus in?</p>
+                <p id="contact-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam amet, sed id commodi consequuntur quasi ut et numquam quos voluptas hic ex voluptate voluptatibus asperiores fugiat ipsum! Pariatur, minus in?</p>
                 <div class="contac-lista iconos">
-                    <ul>
-                        <li><img src="assets/img/gato.jpg" alt=""><link rel="stylesheet" href="">@AdaLovelace</li>
-                        <li><img src="assets/img/gato.jpg" alt=""><link rel="stylesheet" href="">adaLovelace</li>
-                        <li><img src="assets/img/gato.jpg" alt=""><link rel="stylesheet" href="">AdaLovelace</li>
-                        <li><img src="assets/img/gato.jpg" alt=""><link rel="stylesheet" href="">ada.lovelace@gmail.com</li>
+                    <ul >
+                        <div class="contact-colum">
+                            <li><a class="contac-icon" href="#hola"><i class="fab fa-twitter-square"></i>@AdaLovelace</a></li>
+                            <li><a class="contac-icon" href="#hola"><i class="fab fa-github-square"></i>adaLovelace</a></li>
+                        </div>
+                        <div class="contact-colum">
+                            <li><a class="contac-icon" href="#hola"><i class="fab fa-linkedin"></i>AdaLovelace</a></li>
+                            <li><a class="contac-icon" href="#hola"><i class="fas fa-envelope-square"></i>ada.lovelace@gmail.com</a></li>
+                        </div>
                     </ul>
                 </div>
             </div>
@@ -93,18 +105,18 @@
                     <div class="escribeme-form">
                         <div>
                             <label>Nombre*</label><br>
-                            <input type="text" name="username" maxlength="30" placeholder="Ada" required="required"><br>
+                            <input type="text" name="username" maxlength="30" placeholder="Ada" required><br>
                         </div>
                         <div>
                             <label>Apellido*</label><br>
-                            <input type="text" name="surname" maxlength="30" placeholder="Lovelace" required="required"><br>
+                            <input type="text" name="surname" maxlength="30" placeholder="Lovelace" required><br>
                         </div>
                     </div>
                     <label>Email*</label><br>
-                    <input type="email" name="email" maxlength="30" placeholder="adalovelace@gmail.com" required="required"><br>
+                    <input type="email" name="email" maxlength="30" placeholder="adalovelace@gmail.com" required><br>
                     <div class="escribeme-msj">
                         <label>Mensaje*</label>
-                        <textarea name="Message" cols="30" rows="10" placeholder="Escriba un mensaje aqui"></textarea><br>
+                        <textarea name="Message" cols="30" rows="10" min="5" placeholder="Escriba un mensaje aqui" required></textarea><br>
                     </div>
                     <input id="enviar" id="submit" type="submit" value="Enviar" class="button" >
                 </form>
@@ -116,28 +128,28 @@
             <nav id="color">
                 <ul>
                     <li>
-                        <a href="inicio">HOLA</a>
+                        <a  href="#hola">HOLA</a>
                     </li>
                     <li>
-                        <a href="conocimientos">CONOCIMIENTOS</a>
+                        <a href="#conocimientos">CONOCIMIENTOS</a>
                     </li>
                     <li>
-                        <a href="proyectos">PROYECTOS</a>
+                        <a href="#proyectos">PROYECTOS</a>
                     </li>
                     <li>
-                        <a href="contacto">CONTACTO</a>
+                        <a href="#contacto">CONTACTO</a>
                     </li>
                 </ul>
             </nav>
             <div class="iconos margen">
                 <ul>
-                    <li><img src="assets/img/gato.jpg" alt=""><link rel="stylesheet" href=""></li>
-                    <li><img src="assets/img/gato.jpg" alt=""><link rel="stylesheet" href=""></li>
-                    <li><img src="assets/img/gato.jpg" alt=""><link rel="stylesheet" href=""></li>
-                    <li><img src="assets/img/gato.jpg" alt=""><link rel="stylesheet" href=""></li>
+                    <li> <a class="footer-icon" href="#hola"><i class="fab fa-twitter-square"></i></a></li>
+                    <li> <a class="footer-icon" href="#hola"><i class="fab fa-github-square"></i></a></li>
+                    <li> <a class="footer-icon" href="#hola"><i class="fab fa-linkedin"></i></a></li>
+                    <li> <a class="footer-icon" href="#hola"><i class="fas fa-envelope-square"></i></a></li>
                 </ul>
             </div>
-            <p>Hecho con <img src="" alt=""> por Ada</p>
+            <p>Hecho con <i id="corazon" class="fas fa-heart"></i> por Ada</p>
         </div>
     </footer>
 </body>
